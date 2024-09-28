@@ -11,10 +11,6 @@ global.document = window.window.document;
 global.window.navigator.userAgent = 'webkit';
 global.navigator = global.window.navigator;
 
-//var request = require('request').defaults({
-//  encoding: null
-//});
-
 var CanvasImage = require('canvas').Image;
 function stripQuerystring (url) {
   if (url.indexOf('?') !== -1) {
