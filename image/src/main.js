@@ -10,7 +10,7 @@ L.marker([25.041157,121.6143749]).addTo(map);
 L.polyline([[ 25.476,119.920],[ 21.766,119.920],[ 21.766,122.385],[ 25.476,122.385],[ 25.476,119.920]]).addTo(map);
 
 //add tile layer
-L.tileLayer('https://maps1.sgis.tw/img.php?layer=1&x={x}&y={y}&z={z}').addTo(map);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 //set map size
 map.setSize(1024,768);
