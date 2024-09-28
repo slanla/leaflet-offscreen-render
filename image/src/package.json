@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "request": "^2.88.2",
+    "jsdom": "^25.0.1",
+    "jsdom-screenshot": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "leaflet-image": "^0.4.0",
+    "ol": "^10.2.1",
+    "resize-observer-polyfill": "^1.5.1"
+  }
+}
